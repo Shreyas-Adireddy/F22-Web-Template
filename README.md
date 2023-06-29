@@ -15,23 +15,6 @@ Basic modifications such as colors can be made by changing the "index.css" file 
 3. Open a terminal and run "npm install" and then "npm start" after it finishes installing.
 4. Make any changes you want!
 
-# Deploying on Azure
-
-Make sure to go to src/package.json and change the line under scripts from
-"build": "react-scripts build"
-to
-"build": "CI= react-scripts- build"
-
-This is to ensure that Azure doesn't see warnings as error messages
-
-Steps to deploy on Azure
-1. Search "Static Web Apps" in Azure Portal Search Bar
-2. Click Create
-3. Enter any name for the app and click "Free" plan type
-4. For Org, Repo, Branch, choose the repo that contains your code and it's respective branch (main/master)
-5. Under Build Details, select "React" as the Build Preset. There is no API location and Output Location should remain as "build"
-
-
 ----------------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
