@@ -6,7 +6,7 @@
 }
 
 .port__title {
-    color: var(--clr-main)
+    color: var(--clr-dark)
 }
 
 .port__grid {
@@ -29,7 +29,7 @@
 }
 
 .port__btn{
-    background-color: var(--clr-main);
+    background-color: var(--clr-dark);
     color: white;
     border: none;
     padding: 15px 32px;

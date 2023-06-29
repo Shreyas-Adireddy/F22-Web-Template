@@ -20,11 +20,32 @@
 
 .nav__link {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
-
+.nav__link2 {
+    text-decoration: none;
+    color: black;
+    animation: flip 2s ease-in-out infinite ;
+}
 header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+
+.inbetween{
+    margin-left: 10px;
+}
+ 
+.inbetween2{
+    margin-left: 15px;
+}
+}
+.ornament {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 0.5em auto .1em;
+    background: var(--clr-dark);
+    opacity: 0.30;
 }

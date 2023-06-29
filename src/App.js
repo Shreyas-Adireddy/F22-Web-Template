@@ -7,6 +7,7 @@ import ProjectPage from './Components/ProjectPage';
 function App() {
   return (
     <div class="App">
+      <meta name='viewport' content='width=device-width, initial_scale=1'></meta>
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>}/>

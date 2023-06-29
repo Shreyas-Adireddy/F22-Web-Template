@@ -1,14 +1,17 @@
 .tile__intro {
     width: 100%;
-    background-color: var(--clr-tile);
+    background-color: rgb(203, 200, 207);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2em 1em;
+    border-radius: 30px;
 }
 
 .self_image {
-    max-width: 28em;
+    max-width: 30em; 
+    max-height: 30em;
+    border-radius: 0px;
 }
 
 .intro {
@@ -23,8 +26,16 @@
     padding-right: 1em;
 }
 
+.centert{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+}
 .intro__subtitle {
-    background-color: var(--clr-main);
+    background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: right; 
     padding-right: 20px;
@@ -41,4 +52,7 @@
         padding-left: 1em;
         padding-top: 2em;
     }
+}
+.padding-b{
+    padding-bottom: 2em;
 }

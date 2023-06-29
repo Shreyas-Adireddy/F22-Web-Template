@@ -14,14 +14,14 @@
 
 .project {
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
     margin-bottom: 3em;
 }
 
 .proj_btn {
     width: 10em;
     height: 4em;
-    background-color: var(--clr-main);
+    background-color: var(--clr-dark);
     color: white;
     border: none;
     margin-bottom: 50px;
@@ -30,3 +30,30 @@
 .proj_btn:hover {
     opacity: 80%;
 }
+
+html{
+    cursor: auto ;
+}
+#circularcursor {
+    background-color: transparent;
+    border:1px solid black;    
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .column {
+    float: left;
+    /* width: 70%; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

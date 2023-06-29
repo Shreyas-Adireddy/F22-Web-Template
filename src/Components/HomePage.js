@@ -11,10 +11,12 @@ const HomePage = () => {
             <Header/>
             <Introduction/>
             <Experiences/>
-            <Portfolio/>
+            
             <Contacts/>
         </div>
+        
     )
 }
+
 
 export default HomePage;

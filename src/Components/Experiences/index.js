@@ -1,43 +1,22 @@
 import React from 'react'
-import Image1 from './../../images/SASEball.png';
-import Image2 from './../../images/azure.png';
-import Image3 from './../../images/publix.png';
+import Image1 from './../../images/education.png';
+import Image2 from './../../images/spcb.jpg';
+import Image3 from './../../images/april.png';
 
 import "./Experiences.css";
 
 const Experiences = () => {
     return (
-        <body>
-            <h3 class="exp__title">Experiences</h3>
+        <body class="background">
             <div class="ornament"></div>
-            <div class="exp__tile">
-                <div class="exp__list">
-                    {/* COPY PASTE FROM HERE */}
-                    <div class="exp">
-                        <img src={Image1}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">SASE - Member</h1>
-                            <p class="exp__body">Engage with SASE members to develop professionally.</p>
-                        </div>
-                    </div>
-                    {/* COPY PASTE END HERE */}
-                    <div class="exp">
-                        <img src={Image2}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">Azurion - SWE Intern</h1>
-                            <p class="exp__body">Deployed my website on azure.</p>
-                        </div>
-                    </div>
-
-                    <div class="exp">
-                        <img src={Image3}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">Publix - Self Checkout Intern</h1>
-                            <p class="exp__body">Scanned my own grocerys every time I go to Publix.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1 class="exp__title">Skills</h1>
+            <p class="centered">Python • C++ • C
+•	HTML w/ CSS • React • Scikit-Learn • Numpy • Jupyter Notebooks • Pandas • Flask 
+•	Ubuntu • GitHub • Git 
+ 
+•	Certified in Excel, Word, and PowerPoint</p>
+            
+            <div class="ornament2"></div>
         </body>
     )
 }
