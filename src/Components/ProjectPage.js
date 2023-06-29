@@ -5,6 +5,7 @@ import Project1 from "../images/ML.png"
 import Project2 from "../images/bnicer.png"
 import Project3 from "../images/dsa.png"
 import Proj4 from '../images/minesweeper.png';
+import Proj5 from '../images/sudoku.jpg';
 
 
 //Components
@@ -58,13 +59,15 @@ const ProjectPage = () => {
                 </div>
                 <div class="project row">
                 <div class="column">
-                    <img src={Proj4}/></div>
+                    <img src={Proj5}/></div>
 
                     <div class="column">
-                    <h3>Minesweeper</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                         a type specimen book
+                    <h3>Sudoku Solver from Image</h3>
+                    <p>Developed a Sudoku solver utilizing <strong>OpenCV</strong> and <strong>NumPy</strong>, capable of solving Sudoku puzzles from an input
+                         image of the game board. Implemented computer vision techniques using OpenCV to extract the Sudoku 
+                         grid from the image and perform image processing tasks. Leveraged the power of <strong>NumPy</strong> to implement 
+                         some basic <strong>image processing</strong> and used pretrained model to recognize digits. Successfully designed and implemented a system that 
+                         accurately analyzes and solves Sudoku puzzles, providing the user with the solved version.
                     </p>
                     </div>
                 </div>
