@@ -28,10 +28,13 @@ const ProjectPage = () => {
                     </div>
                     <div class="column">
                     <h3>Machine Learning from scratch</h3>
-                    <p>For this project, I am learning the math behind famous machine learning models and implementing them from scratch.
-                         I use <strong>Numpy</strong>, a python library, to do the mathematical matrix operations. As of now, I am 
-                         implementing/implemented <strong>K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Trees, Linear
-                        and Logistical Regression,</strong> and more. 
+                    <p>In this project, I am learning and implementing renowned <strong>machine learning models</strong> from scratch to gain a comprehensive 
+                        understanding of their underlying <strong>mathematics</strong>. Using <strong>Numpy</strong>, a Python library known for efficient matrix operations, 
+                        I am developing models such as <strong>K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Trees, Linear Regression, 
+                        and Logistic Regression</strong>. Through this project, I have developed a strong ability to translate mathematical concepts into
+                         working code, while also gaining valuable experience in working with real-world datasets. By actively engaging with the
+                          mathematics behind these models, I have enhanced my problem-solving skills and deepened my understanding of how various
+                           machine learning algorithms function. 
                     </p>
                     </div>
                 </div>
