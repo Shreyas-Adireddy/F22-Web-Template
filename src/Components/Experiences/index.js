@@ -10,11 +10,7 @@ const Experiences = () => {
         <body class="background">
             <div class="ornament"></div>
             <h1 class="exp__title">Skills</h1>
-            <p class="centered">Python • C++ • C
-•	HTML w/ CSS • React • Scikit-Learn • Numpy • Jupyter Notebooks • Pandas • Flask 
-•	Ubuntu • GitHub • Git 
- 
-•	Certified in Excel, Word, and PowerPoint</p>
+            <p class="centered">Python • C++ • C • HTML w/ CSS • React • NumPy • Quartus • Waveforms • Scikit-Learn  • Jupyter Notebooks • JavaScript • Pandas • Azure• Flask • Streamlit • Ubuntu • GitHub • Git • Certified in Excel, Word, and PowerPoint</p>
             
             <div class="ornament2"></div>
         </body>

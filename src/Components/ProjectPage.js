@@ -46,7 +46,7 @@ const ProjectPage = () => {
                         secured first place and won a prize of <strong>$1000</strong>. Our winning solution involved the development of a 
                         deep learning network using <strong>Tensorflow Keras</strong>. We trained this network on a large Twitter dataset 
                         to accurately identify negativity in user comments through <strong>natural language processing</strong>. Additionally, we implemented a sophisticated 
-                        categorization system to determine the type of bullying present in the comments, distinguishing 
+                        categorization system to determine the type of adverse behaviors present in the comments, distinguishing 
                         between discriminatory, bullying, and offensive content. To combat these issues, we provided users
                          with informative articles aimed at educating against such behaviors.
 
